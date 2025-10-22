@@ -17,8 +17,8 @@ You will need the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone git@github.com:GabrielrISC/Santander-DeveloperCodingTest.git
+    cd Santander-DeveloperCodingTest
     ```
 
 2.  **Restore dependencies:**
@@ -34,9 +34,6 @@ You will need the following installed:
     dotnet run
     ```
     This will start the Kestrel web server, typically on `https://localhost:7001` (or a similar port). The exact URL will be shown in the console output.
-
-2.  **Access the Swagger UI (Optional):**
-    If the project is configured with Swagger, you can usually view the documentation and test the endpoint at a URL like `https://localhost:7001/swagger`.
 
 ---
 
@@ -57,3 +54,4 @@ The API exposes a single `GET` endpoint to retrieve the best stories, which are 
 | `limit` | `integer` | The maximum number of best stories to return. Must be greater than 0. | 5 |
 
 #### Example Request
+GET /api/HackerStories/best?limit=10
