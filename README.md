@@ -2,10 +2,6 @@
 
 A simple RESTful API built with **ASP.NET Core 8** that exposes a single endpoint to fetch the best stories from the official Hacker News API.
 
-## 🚀 Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 You will need the following installed:
